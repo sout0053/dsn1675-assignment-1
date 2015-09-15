@@ -12,12 +12,15 @@ margin: 0;
 
 /* Header */
 
-h1 {
-
+header {
+  /*background-image: url("../images/logo-01.png");*/
+  text-align: center;
 }
 
-header {
-  text-align: center;
+.logo {
+  width: 20%;
+  text-align: left;
+  display: inline;
 }
 
 nav li {
@@ -33,8 +36,6 @@ nav ol {
 /* Seven Wonders */
 strong {
   text-align: center;
-  position: relative;
-  color: white;
 }
 
 img {
@@ -43,12 +44,9 @@ img {
 
 .full-image {
   width: 100%;
-  position: absolute;
 }
 
 .banner {
-  position: absolute;
-  color: white;
 }
 /* Buy Tickets */
 
