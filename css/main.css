@@ -5,60 +5,123 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
 body {
-margin: 0;
-}
-
-/* Header */
-
-header {
-  /*background-image: url("../images/logo-01.png");*/
-  text-align: center;
+  margin: 0;
 }
 
 .logo {
-  width: 20%;
-  text-align: left;
+  width: 15%;
   display: inline;
 }
 
-nav li {
-  display: inline;
-  padding: none;
+/*header {
+    background-image: url("../images/logo-01.png");
+    background-repeat: no-repeat;
+}*/
+
+nav {
+  overflow: hidden;
+  margin: 0;
+  clear: left;
 }
 
 nav ol {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
 }
-/* Header */
 
-/* Seven Wonders */
-strong {
+nav li {
   text-align: center;
+  float: left;
+  width: 25%;
+  border: 1px solid #3c606c;
+  background-color: #748b9b;
 }
 
-img {
-  width: 90%;
+nav a {
+  padding: 0.5em;
+  margin: 0em;
+  list-style-type: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.15rem;
+  display: block;
 }
 
-.full-image {
-  width: 100%;
+nav a:hover {
+  background-color: #3c606c;
 }
 
 .banner {
+  background-image:  url(../images/maerten.jpg);
+  background-size: cover;
+  /*padding: 9em 1em 1em 1em;*/
+  color: black;
+  /*text-shadow: 1px 2px 6px #000;*/
 }
-/* Buy Tickets */
 
-/* Now Playing */
+img {
+  width: 100%;
+}
 
-ol {
+h2 {
+  text-align: center;
+  margin: 1em 1em 0em 1em;
+  padding: 0;
+}
+
+h3 {
+  /*padding-left: 1em;*/
+  text-align: center;
+}
+
+/*.link {
+  background-color: #fff;
+  text-align: center;
+  padding: 1em;
+}*/
+
+.buy {
+  text-align: center;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.now-playing {
+  position: relative;
+}
+
+.atlantis {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+strong {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/*.text {
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  text-shadow: 1px 2px 6px #000;
+  position: absolute;
+  right: 50%;
+  bottom: 50px;
+  margin: 0;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}*/
+
+li {
   list-style-type: none;
-  padding: 0;
 }
 
-ul {
-  padding: 0;
+footer {
+  background-color: #9bacb6;
+  padding: 1em;
+  border-top: 0.15em solid #222222;
 }
-
-/* This Week */
