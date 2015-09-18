@@ -9,15 +9,24 @@ body {
   margin: 0;
 }
 
+/*header {
+  background-image: url("../images/logo-01.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 6em;
+}*/
+
 .logo {
   width: 15%;
-  display: inline;
+  /*display: inline;*/
+  float: left;
 }
 
-/*header {
-    background-image: url("../images/logo-01.png");
-    background-repeat: no-repeat;
-}*/
+.buybtn {
+  float: right;
+  padding-right: .5em;
+  padding-top: 1em;
+}
 
 nav {
   overflow: hidden;
@@ -35,8 +44,8 @@ nav li {
   text-align: center;
   float: left;
   width: 25%;
-  border: 1px solid #3c606c;
-  background-color: #748b9b;
+  /*border: 1px solid #79756f;*/
+  background-color: #dbd6cf;
 }
 
 nav a {
@@ -50,30 +59,36 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #3c606c;
+  background-color: #ff3333;
 }
 
 .banner {
-  background-image:  url(../images/maerten.jpg);
+  text-align: center;
+  background-image: url(../images/Maerten_van_Heemskerck_-_Panorama_with_the_Abduction_of_Helen_Amidst_the_Wonders_of_the_Ancient_World_-_Walters_37656.jpg);
   background-size: cover;
-  /*padding: 9em 1em 1em 1em;*/
-  color: black;
-  /*text-shadow: 1px 2px 6px #000;*/
+  padding: 2em 1em 1em 1em;
+  color: #fff;
+  text-shadow: 1px 2px 6px #000;
 }
 
 img {
   width: 100%;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   text-align: center;
-  margin: 1em 1em 0em 1em;
+  margin: 1em 1em 1em 1em;
   padding: 0;
 }
 
 h3 {
   /*padding-left: 1em;*/
-  text-align: center;
+  text-align: left;
+  padding-left: 1em;
 }
 
 /*.link {
@@ -88,14 +103,40 @@ h3 {
   padding-right: 3em;
 }
 
-.now-playing {
+/*.now-playing {
   position: relative;
-}
+}*/
 
 .atlantis {
   width: 100%;
   margin: 0;
-  position: relative;
+  /*position: absolute;*/
+  right: 0em;
+}
+
+.banner-atlantis {
+  color: black;
+  text-align: center;
+  /*position: relative;
+  -- doesn't work because moves with screen, not content--*/
+  /*padding-left: 5.5em;*/
+}
+
+.now-playing {
+  text-align: center;
+  background-image: url(../images/Maróti-Atlantisz_1.jpg);
+  width: 100%;
+  background-size: 100%;
+  padding: 2em 1em 1em 1em;
+  color: #fff;
+  text-shadow: 1px 2px 6px #000;
+}
+
+.description {
+  /*position: absolute;
+  padding-left: 12em;
+  padding-top: 14em;*/
+  text-align: center;
 }
 
 strong {
@@ -103,25 +144,20 @@ strong {
   text-align: center;
 }
 
-/*.text {
-  color: #fff;
-  text-align: center;
-  font-size: 1em;
-  text-shadow: 1px 2px 6px #000;
-  position: absolute;
-  right: 50%;
-  bottom: 50px;
-  margin: 0;
-  -webkit-transform: translateX(50%);
-  transform: translateX(50%);
-}*/
+ol {
+  padding: 0;
+}
+
+ul {
+  padding-left: 1em;
+}
 
 li {
   list-style-type: none;
 }
 
 footer {
-  background-color: #9bacb6;
+  background-color: #dbd6cf;
   padding: 1em;
-  border-top: 0.15em solid #222222;
+  /*border-top: 0.15em solid #222222;*/
 }
