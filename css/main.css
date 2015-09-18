@@ -144,6 +144,24 @@ strong {
   text-align: center;
 }
 
+.list {
+  overflow: hidden;
+  margin: 0;
+  clear: left;
+  padding-left: 0;
+}
+
+.list ol {
+  list-style-type: none;
+  margin: 0;
+}
+
+.list li {
+  text-align: center;
+  float: left;
+  width: 33.33%;
+}
+
 ol {
   padding: 0;
 }
