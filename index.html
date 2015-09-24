@@ -2,33 +2,30 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Museum of Antiquities</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Navigation</title>
   <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
 </head>
 
 <body>
 
-<header>
-
-    <img class="logo" src="images/logo-01.png" alt=".">
-
-    <a href="#buy-tickets" class="buybtn">BUY</a>
-
-      <h1>Museum of Antiquities</h1>
-
-    <nav id="top">
-      <ol>
-        <li><a href="#seven-wonders">Seven wonders</a></li>
-        <li><a href="#buy-tickets">Buy tickets</a></li>
-        <li><a href="#now-playing">Now playing</a></li>
-        <li><a href="#this-week">This week</a></li>
-      </ol>
-    </nav>
-
+<header class="masthead">
+  <img class="logo" src="images/logo-01.png" alt=".">
+  <a href="#buy-tickets" class="buybtn">BUY</a>
+  <h1 class="title">Museum of Antiquities</h1>
+  <nav>
+    <ul class="nav">
+      <li><a href="#seven-wonders">Seven Wonders</a></li>
+      <li><a href="#buy-tickets">Buy Tickets</a></li>
+      <li><a href="#now-playing">Now Playing</a></li>
+      <li><a href="#this-week">This Week</a></li>
 </header>
 
-<div class="banner">
+<main>
+
+  <div class="banner">
   <strong>The Seven Wonders of the Ancient World</strong>
   <p>Remarkable constructions of classical antiquity almost completely lost in time.</p>
 </div>
@@ -37,6 +34,7 @@
 
 <h2 id="seven-wonders">The Seven Wonders</h2>
 
+<div class="left">
 <h3>Great Pyramid of Giza</h3>
 
   <img src="images/Giza.jpg" alt="An illustration of the great pyramid of Giza.">
@@ -60,6 +58,10 @@
 
     <a href="">Learn more about Giza</a>
 
+</div>
+
+<div class="right">
+
 <h3>Hanging Gardens of Babylon</h3>
 
   <img src="images/Hanging_Gardens_of_Babylon.jpg" alt="An illustration of the Hanging Gardens of Babylon.">
@@ -82,7 +84,9 @@
   </ol>
 
     <a href="">Learn more about the Hanging Gardens</a>
+</div>
 
+<div class="left">
 <h3>Temple of Artemis</h3>
 
   <img src="images/Temple_of_Artemis.jpg" alt="An illustration of the Temple of Artemis.">
@@ -105,7 +109,9 @@
   </ol>
 
     <a href="">Learn more about the Temple</a>
+</div>
 
+<div class="right">
 <h3>Statue of Zeus at Olympia</h3>
 
   <img src="images/Statue_of_Zeus.jpg" alt="An illustration of the Statue of Zeus.">
@@ -128,7 +134,9 @@
   </ol>
 
     <a href="">Learn more about the Statue</a>
+</div>
 
+<div class="left">
 <h3>Mausoleum at Halicarnassus</h3>
 
   <img src="images/Mausoleum_of_Halicarnassus.jpg" alt="An illustration of the Mausoleum of Halicarnassus.">
@@ -151,7 +159,9 @@
   </ol>
 
     <a href="">Learn more about the Mausoleum</a>
+</div>
 
+<div class="right">
 <h3>Colossus of Rhodes</h3>
 
   <img src="images/Colossus_of_Rhodes.jpg" alt="An illustration of the Colossus of Rhodes.">
@@ -174,7 +184,9 @@
   </ol>
 
     <a href="">Learn more about Colossus</a>
+</div>
 
+<div class="left">
 <h3>Lighthouse of Alexandria</h3>
 
   <img src="images/Pharos_of_Alexandria.jpg" alt="An illustration of the Lighthouse of Alexandria.">
@@ -198,7 +210,6 @@
   </ol>
 
     <a href="">Learn more about the Lighthouse</a>
-
 </div>
 
 <div class="buy">
@@ -303,7 +314,7 @@
     <p>1618 Plato Blvd.</p>
     <p>Atlantis, Atlantis, Atlantic Ocean</p>
 
-    <nav>
+    <nav class="nav">
       <a href="">Exhibits</a>
       <a href="">Collections</a>
       <a href="">Donors &amp; sponsors</a>
@@ -311,6 +322,8 @@
       <a href="">Birthday rentals</a>
     </nav>
 </footer>
+
+</main>
 
 </body>
 </html>
