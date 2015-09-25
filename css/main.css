@@ -136,7 +136,16 @@ strong {
   background-color: #ff3333;
 }
 
+h2 + p {
+  font-size: 1.2rem;
+}
+
 @media only screen and (min-width: 25em) {
+
+  html {
+  font-size: 110%;
+  line-height: 1.4;
+}
 
   .nav {
     text-align: center;
@@ -180,6 +189,11 @@ strong {
     vertical-align: middle; /* vertical align only works on inline and inline block level elements
   }*/
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
   .logo {
     margin: 0 auto;
     display: block;
@@ -196,6 +210,18 @@ strong {
 }
 
 @media only screen and (min-width: 50em) {
+
+  .masthead {
+    position: fixed;
+  }
+
+  .line-length {
+    max-width: 25em;
+  }
+
+  html {
+  font-size: 130%;
+  }
 
   .masthead {
     float: left;
@@ -226,37 +252,63 @@ strong {
   }
 
   .left {
-    /*position: relative;*/
     display: inline-block;
     width: 40%;
-    /*padding-left: 2em;*/
     margin: 0;
-    /*position: absolute;*/
-    /*float: left;*/
-    /*left: 300px;*/
   }
 
   .right {
-    /*float: right;*/
-    /*position: relative;*/
     display: inline-block;
     width: 40%;
     right: -500px;
-    /*top: -440px;*/
     margin: 0;
   }
 
   .left-last {
-    /*position: relative;*/
     display: inline-block;
     text-align: center;
     width: 40%;
-    /*position: absolute;*/
-    /*float: left;*/
-    /*text-align: center;*/
-    /*left: 350px;*/
-    /*left: 240px;*/
     padding-bottom: 3em;
+  }
+
+}
+
+@media print {
+
+  nav {
+    display: none;
+  }
+
+  .buybtn {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .left {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+  }
+
+  .right {
+    display: inline-block;
+    width: 40%;
+    right: -500px;
+    margin: 0;
+  }
+
+  .left-last {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    padding-bottom: 3em;
+  }
+
+  .button {
+    display: none;
   }
 
 }
