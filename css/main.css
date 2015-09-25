@@ -119,6 +119,23 @@ strong {
   text-align: center;
 }
 
+.button {
+  display: block;
+  background-color: #dbd6cf;
+  /*border-radius: 20px;*/
+  text-align: center;
+  margin-left: 20%;
+  color: white;
+  width: 61%;
+  bottom: 1em;
+  padding: 1em;
+  /*background: linear-gradient(to bottom, #6fc000, #388200);*/
+}
+
+.button:hover {
+  background-color: #ff3333;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav {
@@ -219,18 +236,6 @@ strong {
     /*left: 300px;*/
   }
 
-  .left-last {
-    position: relative;
-    text-align: center;
-    width: 35%;
-    /*position: absolute;*/
-    /*float: left;*/
-    /*text-align: center;*/
-    /*left: 350px;*/
-    left: 275px;
-    padding-bottom: 3em;
-  }
-
   .right {
     /*float: right;*/
     /*position: relative;*/
@@ -239,6 +244,19 @@ strong {
     right: -500px;
     /*top: -440px;*/
     margin: 0;
+  }
+
+  .left-last {
+    /*position: relative;*/
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    /*position: absolute;*/
+    /*float: left;*/
+    /*text-align: center;*/
+    /*left: 350px;*/
+    /*left: 240px;*/
+    padding-bottom: 3em;
   }
 
 }
