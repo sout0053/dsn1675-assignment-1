@@ -123,6 +123,7 @@ strong {
 
   .nav {
     text-align: center;
+    margin-top: 1em;
   }
 
   .nav li {
@@ -151,7 +152,7 @@ strong {
 
 @media only screen and (min-width: 35em) {
 
-  .logo {
+  /*.logo {
     display: inline-block;
     margin: 0.1em;
     vertical-align: middle;
@@ -159,7 +160,16 @@ strong {
 
   .title {
     display: inline-block;
-    vertical-align: middle; /* vertical align only works on inline and inline block level elements*/
+    vertical-align: middle; /* vertical align only works on inline and inline block level elements
+  }*/
+
+  .logo {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .title {
+    display: block;
   }
 
   .nav {
