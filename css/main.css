@@ -216,7 +216,9 @@ h2 + p {
   }
 
   .line-length {
-    max-width: 25em;
+    max-width: 30em;
+    margin: 0 auto;
+    padding-bottom: 1em;
   }
 
   html {
