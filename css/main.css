@@ -178,6 +178,7 @@ strong {
   main {
     float: right;
     width: 70%;
+    text-align: center;
   }
 
   .logo {
@@ -198,20 +199,36 @@ strong {
   }
 
   .left {
-/*    width: 45%;
-    float: left;
-    clear: right;*/
+    /*position: relative;*/
+    display: inline-block;
+    width: 40%;
+    padding-left: 2em;
+    margin: 0;
+    /*position: absolute;*/
+    /*float: left;*/
+    /*left: 300px;*/
+  }
 
-
+  .left-last {
+    position: relative;
+    text-align: center;
+    width: 35%;
+    /*position: absolute;*/
+    /*float: left;*/
+    /*text-align: center;*/
+    /*left: 350px;*/
+    left: 275px;
+    padding-bottom: 3em;
   }
 
   .right {
-    /*width: 45%;
-    float: right;
-    clear: left;*/
-
-
-
+    /*float: right;*/
+    /*position: relative;*/
+    display: inline-block;
+    width: 40%;
+    right: -500px;
+    /*top: -440px;*/
+    margin: 0;
   }
 
 }
